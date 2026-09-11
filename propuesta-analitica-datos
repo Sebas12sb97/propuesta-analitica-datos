@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Propuesta de Analítica de Datos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Propuesta de Migración y Analítica de Datos</h1>
+    <nav>
+      <ul>
+        <li><a href="#empresa">Empresa</a></li>
+        <li><a href="#herramientas">Herramientas</a></li>
+        <li><a href="#multimedia">Multimedia</a></li>
+        <li><a href="#integrantes">Integrantes</a></li>
+        <li><a href="#conclusiones">Conclusiones</a></li>
+        <li><a href="#bibliografia">Bibliografía</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="empresa">
+    <h2>Descripción del Caso</h2>
+    <p>La empresa se encuentra en un proceso de migración de datos no estructurados con antigüedad de 20 años. El objetivo es aprovechar la información para fortalecer el área comercial y mejorar el reconocimiento en el mercado.</p>
+  </section>
+
+  <section id="herramientas">
+    <h2>Herramientas de Analítica</h2>
+    <ul>
+      <li><strong>Power BI:</strong> Visualización interactiva de datos.</li>
+      <li><strong>Tableau:</strong> Dashboards avanzados y dinámicos.</li>
+      <li><strong>Python (Pandas/Matplotlib):</strong> Procesamiento y análisis profundo.</li>
+      <li><strong>Google Data Studio:</strong> Informes colaborativos en la nube.</li>
+      <li><strong>SQL Server:</strong> Organización y estructuración de datos históricos.</li>
+    </ul>
+  </section>
+
+  <section id="multimedia">
+    <h2>Contenido Multimedia</h2>
+    <video controls width="400">
+      <source src="media/tutorial.mp4" type="video/mp4">
+      Tu navegador no soporta video.
+    </video>
+    <img src="media/grafico.png" alt="Ejemplo de gráfico de datos">
+  </section>
+
+  <section id="integrantes">
+    <h2>Integrantes del Grupo</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="media/integrante1.jpg" alt="Integrante 1">
+        <p>Integrante 1 – Rol: Documentación</p>
+      </div>
+      <div class="card">
+        <img src="media/integrante2.jpg" alt="Integrante 2">
+        <p>Integrante 2 – Rol: Herramientas</p>
+      </div>
+      <div class="card">
+        <img src="media/integrante3.jpg" alt="Integrante 3">
+        <p>Integrante 3 – Rol: Conclusiones</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="conclusiones">
+    <h2>Conclusiones</h2>
+    <p>La implementación de herramientas de analítica permite transformar datos no estructurados en información estratégica, fortaleciendo la toma de decisiones y el crecimiento comercial.</p>
+  </section>
+
+  <section id="bibliografia">
+    <h2>Bibliografía</h2>
+    <ul>
+      <li>Libros y artículos sobre analítica de datos.</li>
+      <li>Documentación oficial de Power BI, Tableau y Python.</li>
+      <li>Recursos académicos de la Unidad 1.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Proyecto académico – Ingeniería Civil</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #004080;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+  background: white;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background: #e6e6e6;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+// Ejemplo: mensaje en consola
+console.log("Página cargada correctamente.");
+
+// Ejemplo: interacción simple
+document.addEventListener("DOMContentLoaded", () => {
+  alert("Bienvenido a la propuesta de analítica de datos");
+});
